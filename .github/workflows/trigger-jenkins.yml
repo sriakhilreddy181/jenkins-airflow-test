@@ -1,0 +1,33 @@
+name: Trigger Jenkins on File Commit
+
+on:
+  push:
+    branches:
+      - main  # or your main branch
+
+jobs:
+  trigger-jenkins:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Check for File Changes
+        id: check_changes
+        run: |
+          if [[ $(git diff --name-only ${{ github.event.before }} ${{ github.sha }}) ]]; then
+            echo "Files have changed, triggering Jenkins."
+          else
+            echo "No files have changed, skipping Jenkins trigger."
+            exit 78  # Skip the rest of the steps
+          fi
+
+      - name: Trigger Jenkins
+        if: steps.check_changes.outputs.code == 0
+        uses: appleboy/jenkins-action@v2
+        with:
+          url: ${{ secrets.JENKINS_URL }}
+          username: ${{ secrets.JENKINS_USERNAME }}
+          password: ${{ secrets.JENKINS_PASSWORD }}
+          build: 'Your_Jenkins_Job_Name'
