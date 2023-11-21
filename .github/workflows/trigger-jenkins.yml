@@ -22,7 +22,7 @@ jobs:
             echo "No files have changed, skipping Jenkins trigger."
             exit 78  # Skip the rest of the steps
           fi
-
+        
       - name: Trigger Jenkins
         if: steps.check_changes.outputs.code == 0
         uses: appleboy/jenkins-action@v0.0.2
