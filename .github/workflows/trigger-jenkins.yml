@@ -3,7 +3,7 @@ name: Trigger Jenkins on File Commit
 on:
   push:
     branches:
-      - main  # or your main branch
+      - master  # or your main branch
 
 jobs:
   trigger-jenkins:
