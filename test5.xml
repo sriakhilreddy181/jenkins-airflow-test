@@ -1,0 +1,102 @@
+<customers>
+    <customer>
+        <customer_id>1</customer_id>
+        <customer_name>John Doe</customer_name>
+        <customer_location>New York</customer_location>
+    </customer>
+    <customer>
+        <customer_id>2</customer_id>
+        <customer_name>Alice Smith</customer_name>
+        <customer_location>Los Angeles</customer_location>
+    </customer>
+    <customer>
+        <customer_id>3</customer_id>
+        <customer_name>Bob Johnson</customer_name>
+        <customer_location>Chicago</customer_location>
+    </customer>
+    <customer>
+        <customer_id>4</customer_id>
+        <customer_name>Sarah Brown</customer_name>
+        <customer_location>Miami</customer_location>
+    </customer>
+    <customer>
+        <customer_id>5</customer_id>
+        <customer_name>Michael Wilson</customer_name>
+        <customer_location>Houston</customer_location>
+    </customer>
+    <customer>
+        <customer_id>6</customer_id>
+        <customer_name>Linda Davis</customer_name>
+        <customer_location>San Francisco</customer_location>
+    </customer>
+    <customer>
+        <customer_id>7</customer_id>
+        <customer_name>Robert Lee</customer_name>
+        <customer_location>Seattle</customer_location>
+    </customer>
+    <customer>
+        <customer_id>8</customer_id>
+        <customer_name>Mary Taylor</customer_name>
+        <customer_location>Boston</customer_location>
+    </customer>
+    <customer>
+        <customer_id>9</customer_id>
+        <customer_name>William Clark</customer_name>
+        <customer_location>Dallas</customer_location>
+    </customer>
+    <customer>
+        <customer_id>10</customer_id>
+        <customer_name>Karen White</customer_name>
+        <customer_location>Denver</customer_location>
+    </customer>
+    <customer>
+        <customer_id>11</customer_id>
+        <customer_name>James Anderson</customer_name>
+        <customer_location>Phoenix</customer_location>
+    </customer>
+    <customer>
+        <customer_id>12</customer_id>
+        <customer_name>Emily Hernandez</customer_name>
+        <customer_location>Atlanta</customer_location>
+    </customer>
+    <customer>
+        <customer_id>13</customer_id>
+        <customer_name>Joseph Garcia</customer_name>
+        <customer_location>Philadelphia</customer_location>
+    </customer>
+    <customer>
+        <customer_id>14</customer_id>
+        <customer_name>Olivia Martinez</customer_name>
+        <customer_location>San Diego</customer_location>
+    </customer>
+    <customer>
+        <customer_id>15</customer_id>
+        <customer_name>David Jones</customer_name>
+        <customer_location>Detroit</customer_location>
+    </customer>
+    <customer>
+        <customer_id>16</customer_id>
+        <customer_name>Sophia Brown</customer_name>
+        <customer_location>Tampa</customer_location>
+    </customer>
+    <customer>
+        <customer_id>17</customer_id>
+        <customer_name>Charles Thomas</customer_name>
+        <customer_location>Minneapolis</customer_location>
+    </customer>
+    <customer>
+        <customer_id>18</customer_id>
+        <customer_name>Ava Johnson</customer_name>
+        <customer_location>Portland</customer_location>
+    </customer>
+    <customer>
+        <customer_id>19</customer_id>
+        <customer_name>Daniel Miller</customer_name>
+        <customer_location>Las Vegas</customer_location>
+    </customer>
+    <customer>
+        <customer_id>20</customer_id>
+        <customer_name>Mia Wilson</customer_name>
+        <customer_location>Raleigh</customer_location>
+    </customer>
+</customers>
