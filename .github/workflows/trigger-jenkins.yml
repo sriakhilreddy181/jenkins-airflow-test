@@ -17,6 +17,6 @@ jobs:
         uses: appleboy/jenkins-action@v0.0.2
         with:
           url: ${{ secrets.JENKINS_URL }}
-          username: ${{ secrets.JENKINS_USERNAME }}
-          password: ${{ secrets.JENKINS_PASSWORD }}
-          build: 'Your_Jenkins_Job_Name'
+          user: ${{ secrets.JENKINS_USERNAME }}
+          token: ${{ secrets.JENKINS_PASSWORD }}
+          job: 'Your_Jenkins_Job_Name'
