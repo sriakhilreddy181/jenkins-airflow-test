@@ -3,7 +3,7 @@ name: Trigger Jenkins on File Commit
 on:
   push:
     branches:
-      - master  # or your main branch
+      - main  # or your main branch
 
 jobs:
   trigger-jenkins:
@@ -25,7 +25,7 @@ jobs:
 
       - name: Trigger Jenkins
         if: steps.check_changes.outputs.code == 0
-        uses: appleboy/jenkins-action@v2
+        uses: appleboy/jenkins-action@latest
         with:
           url: ${{ secrets.JENKINS_URL }}
           username: ${{ secrets.JENKINS_USERNAME }}
