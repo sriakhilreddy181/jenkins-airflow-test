@@ -25,7 +25,7 @@ jobs:
 
       - name: Trigger Jenkins
         if: steps.check_changes.outputs.code == 0
-        uses: appleboy/jenkins-action@latest
+        uses: appleboy/jenkins-action@main
         with:
           url: ${{ secrets.JENKINS_URL }}
           username: ${{ secrets.JENKINS_USERNAME }}
