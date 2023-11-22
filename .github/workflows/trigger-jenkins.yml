@@ -19,4 +19,4 @@ jobs:
           url: ${{ secrets.JENKINS_URL }}
           user: ${{ secrets.JENKINS_USERNAME }}
           token: ${{ secrets.JENKINS_PASSWORD }}
-          job: 'Your_Jenkins_Job_Name'
+          job: 'jenkins-airflow'
