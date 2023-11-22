@@ -20,3 +20,4 @@ jobs:
           user: ${{ secrets.JENKINS_USERNAME }}
           token: ${{ secrets.JENKINS_PASSWORD }}
           job: 'jenkins-airflow'
+          
